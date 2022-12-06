@@ -1,6 +1,11 @@
 @extends('School.layout')
 @section('content')
 <h4 class="mt-5">Tabel Lengkap</h4>
+<div class = "col-auto">
+    <form action="/join" method="GET">
+    <input type="search" name="search" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+    </form>
+</div>
 <table class="table table-hover mt-2">
     <div class = "row g-3 align-items-center mt-2">
     <table class="table table-hover mt-2">
